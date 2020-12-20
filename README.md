@@ -13,11 +13,13 @@ xhost +
 - Download `gtk4.0` source code
 ```sh
 wget https://ftp.acc.umu.se/pub/GNOME/sources/gtk/4.0/gtk-4.0.0.tar.xz
+xzcat gtk-4.0.0.tar.xz | tar xfv -
 ```
 
 - Download `wayland-protocol 1.20`
 ```sh
 wget https://wayland.freedesktop.org/releases/wayland-protocols-1.20.tar.xz
+xzcat wayland-protocols-1.20.tar.xz | tar xfv -
 ```
 
 ### Build and run docker
